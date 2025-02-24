@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <div className="flex gap-10">
           <div>
-            <p className="font-bold text-lg">Departments</p>
+            <p className="font-bold text-lg">Department</p>
             <ul>
               {FooterData.departments.map((department, index) => (
                 <li key={index}>{department}</li>
